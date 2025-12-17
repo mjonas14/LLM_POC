@@ -20,4 +20,4 @@ def import_json(path: str):
         print(f"Inserted document with _id={result.inserted_id} into {COLLECTION_NAME}.")
 
 if __name__ == "__main__":
-    import_json("raw_index_data.json")
+    import_json(".json/raw_index_data.json")   # update this to be location of file

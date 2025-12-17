@@ -1,5 +1,5 @@
 from typing import Optional, Dict, Any
-from db import db  # uses your Atlas URI from .env
+from database.db import db  # uses your Atlas URI from .env
 
 def get_latest_index_snapshot(index_id: str) -> Optional[Dict[str, Any]]:
     """

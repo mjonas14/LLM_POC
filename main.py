@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from db import db
+from database.db import db
 from datetime import datetime
 from pydantic import BaseModel
 from app.gemini_client import chat_with_gemini
